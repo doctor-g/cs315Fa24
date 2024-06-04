@@ -1,5 +1,11 @@
 # CS 315 Game Programming, Fall 2024
 
+## Contents
+
+- The [Course Overview](overview.md) contains a summary of the course and its policies
+
+- Exercises for each week
+
 ## Legal and Licensing
 
 CS315 Game Programming © 2024 Paul Gestwicki
