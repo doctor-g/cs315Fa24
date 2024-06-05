@@ -137,7 +137,7 @@ work moving forward follows better practices
 
 ## Evaluation
 
-A satisfactory submission will demonstrate all essential goals.
+A satisfactory submission will meet all essential goals.
 
 ### Essential goals:
 
