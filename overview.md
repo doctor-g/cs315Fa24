@@ -70,6 +70,48 @@ Canvas is incapable of managing the grading system described here, so do not put
 any stock in aggregate or computed grades that it provides. Use only the
 policies presented on this page.
 
+### Evaluation Criteria and Resubmission
+
+Each specification for submittable work will tell you what criteria are used
+for grading. For example, one criterion from [the first exercise](week1.md) is 
+to complete a popular Godot Engine tutorial.
+Each criterion will be evaluated according to the following scale:
+- Successful
+- Minor revisions needed
+- New attempt required
+- Incomplete
+
+A _successful_ attempt meets the criterion for a satisfactory submission.
+
+_Minor revisions needed_ means that the work is mostly right but has some
+amendable flaw. You have three business days from the evaluation to
+address the mistake and resubmit it along with a revision report.
+The revision report must clearly address two things:
+- An explanation of the mistake from the original submission, why it was
+a mistake, and the thinking process that led to it.
+- An explanation of the fix, including how your understanding has improved 
+by making the revision.
+
+If the revision and its corresponding report meet these requirements, then the 
+evaluation of the original work becomes _Successful_. If not, it is treated
+as _New attempt required_.
+
+_New attempt required_ indicates that you have made progress, but there is a
+critical flaw in your submission. In order to successfully show that you can
+meet the criterion, you will need to explore the objective in a new context. The
+evaluation should give you more contextual information about how to do this. 
+
+_Incomplete_ means that there is not an indication of clear progress
+toward the goals. 
+
+If you have incomplete submissions or new attempts required, you can resubmit
+the corresponding exercise for a new evaluation. You may do this at most
+once per week, reckoning from the first class meeting day of that week
+(usually 2PM on Tuesdays).
+
+(This policy is inspired by [Joshua Bowman's work at Pepperdine University,
+a case study at _Grading for Growth_](https://gradingforgrowth.com/p/case-study-how-joshua-bowman-uses).)
+
 ### Course grade
           
 Your final grade will be determined based on the specifications in the following
