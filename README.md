@@ -1,10 +1,14 @@
 # CS 315 Game Programming, Fall 2024
 
+This repository contains a course plan for my section of CS315 Game Programming
+at Ball State University for Fall 2024. 
+Additional content will be added to the repository as the course progresses.
+
 ## Contents
 
 - The [Course Overview](overview.md) contains a summary of the course and its policies
 
-- Exercises for each week
+- Weekly exercises
 
 ## Legal and Licensing
 
