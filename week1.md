@@ -9,13 +9,13 @@ This project will introduce you to Godot Engine as well as the norms of the clas
 ### 1. Preliminaries
 
 Complete the account registration form that linked from Canvas.
-This will get you access to the class' private GitHub organization, 
+This will get you access to the class' private GitHub organization,
 which is required to complete later steps of this project.
 
 Install [Microsoft Visual Studio Code](https://code.visualstudio.com/download) (&ldquo;VSCode&rdquo; for short).
 
 Configure git as follows:
-1. Make sure you can run `git` from the command line. Windows users will use Git Bash, which is 
+1. Make sure you can run `git` from the command line. Windows users will use Git Bash, which is
 part of the [the git installation for Windows](https://www.git-scm.com/download/win).
 
 1. Set up your identity [following the setup instructions](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
@@ -28,13 +28,23 @@ Work through the [Your first 2D game tutorial](https://docs.godotengine.org/en/s
 
 ### 3. Version Control
 
+You should have previous experience with distributed version control from the prerequisite courses.
+This semester's work builds upon that experience
+with more professional techniques.
+
+Start by reading [Chris Beams' article, &ldquo;How to Write a Git Commit
+Message.&rdquo;](https://cbea.ms/git-commit/) This will help you understand not
+just _how_ to write a good commit message but, more importantly, _why_. We will
+hold ourselves accountable to Beams' seven rules this semester.
+
+
 Set up a git repository for your project. For example, you can use the command line to navigate to your project folder and then issue the command `git init`.
 
 Godot Engine will create appropriate `.gitignore` and `.gitattributes` files for you by default.
 These tell git what files to ignore and how to deal with different kinds of files, respectively.
 Take a look at the `.gitignore` file, then look at your filesystem.
 You should see that `.gitignore` is ignoring a folder called `.godot`, and that this folder
-contains all manner of gobbledygook. 
+contains all manner of gobbledygook.
 Godot Engine uses that folder to hold its generated
 content&mdash;the files it needs to edit and build your project. Since it is generated
 content, it should not be tracked in version control. Three cheers for Godot Engine's
@@ -51,7 +61,7 @@ This means that, once you are done, your `.gitignore` will look something like t
 .DS_Store
 ```
 
-Use `git status` at any time to see what is currently being tracked by git. 
+Use `git status` at any time to see what is currently being tracked by git.
 
 From the project directory, you can add all the non-ignored files with the following command.
 That is, this tells git to stage these files for commit.
@@ -74,7 +84,7 @@ Create a repository in our course organization on GitHub, naming it `E0-xyz`, wh
 
 Confirm that you have handled these steps properly by cloning your remote repository to a new location on your workstation.
 On GitHub, click the &ldquo;Code&rdquo; button to get the HTTPS URL to your repository. It should look something like
-`https://github.com/bsu-cs315/E0-myname`. 
+`https://github.com/bsu-cs315/E0-myname`.
 From your terminal, go to any convenient location in your filesystem and clone the repository using the `git clone` command, like this:
 ```
 git clone https://github.com/bsu-cs315/E0-myname
@@ -83,19 +93,58 @@ This will get you an exact copy of what is on GitHub. You can open it up and con
 
 ### 4. Your README file and report
 
-TBD
+It is common practice for a software project to have a top-level
+&ldquo;README&rdquo; file that explains it, and we will follow that practice for
+our work. Create a `README.md` file at the root of your project. This Markdown
+file must contain your name, the name of the project, acknowledgement of those
+besides the professor who assisted you, and the licenses under which third-party
+assets are used. It is also where you will place your activity report, the
+requirements for which are explained below.
+
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a [plain text
+format](https://en.wikipedia.org/wiki/Plain_text). This means—perhaps
+unsurprisingly—that you edit it with [a plain text
+editor](https://en.wikipedia.org/wiki/Text_editor). If you are not already
+conversant with [GNU Emacs](https://www.gnu.org/software/emacs/) or
+[Vim](https://www.vim.org/), then you will be using
+[VSCode](https://code.visualstudio.com/), which is free, open source, and
+cross-platform. VSCode makes it easy to verify that your Markdown files are
+correct: the preview pane that shows the file's HTML rendering can be opened
+with `Ctrl-K,V` (that is, hit `Control` and `K` together, release both, and then tap
+`V`).
+
+The _activity report_ is an important part of your `README.md` file. The primary
+purpose of the project report is to facilitate self-evaluation and reflection
+about the project. The report belongs in its own eponymous subsection of the
+README.md.
+
+The report describes which essential and auxiliary evaluation goals are met. The
+writing and presentation of the report should be clear, precise, and concise. It
+is a technical document and not an essay, and as such, there is no need to
+&ldquo;fluff up&rdquo; the report with extra prose. Where appropriate, it should
+link directly to the relevant source files. For example, if you have
+demonstrated how to make a character jump in a file called
+`project/character.gd`, then you can add a link to that file in your Markdown as
+&ldquo;\[the Character script\](project/character.gd)&rdquo;.
+
+Remember to include in your `README.md` file the licenses of
+third-party assets that you have used in the tutorial. Curiously, the tutorial
+actually violates the terms of one of the licenses: an attribution-licensed loop
+is used, but no attribution is given to the creator within the game. We will
+talk more about that later in the semester, and we will ensure that all of our
+work moving forward follows better practices
+
 
 ## Evaluation
 
 A satisfactory submission will demonstrate all essential goals.
 
-Essential goals:
+### Essential goals:
 
-- The repository is in the course organization. It has a top-level `README.md` file that identifies the author and exercise. 
-There are no unnecessary files in the repository, and in particular, it does not contain `.godot` nor `.DS_Store`.
+- **Version control management**: The repository is in the course organization. It has a top-level `README.md` file that identifies the author and exercise. There are no unnecessary files in the repository, and in particular, it does not contain `.godot` nor `.DS_Store`. All the commit messages follow Beams' rules.
 
-- The tutorial has been completed and is in the aforementioned repository.
+- **Tutorial**: The tutorial has been completed and is in the aforementioned repository.
 
-Auxiliary goals:
+- **Licenses**: The licenses of third-party assets are correctly included in the `README.md` file.
 
-- All of your commit messages follow [Chris Beams' rules](https://cbea.ms/git-commit/)
+- **Report**: The project report is complete.
