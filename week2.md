@@ -102,24 +102,25 @@ A satisfactory submission will meet all essential goals and at least two auxilia
 
 ### Essential goals
 
-- The player can control the angle at which
+- **Controls**: The player can control the angle at which
 the projectile is fired and can fire it,
 the projectile's path is affected by the physics
 engine's gravity, and there is a ground that stops
 the projectile's falling.
 
-- You have a clear legal right to use all incorporated
+- **Licenses**: You have a clear legal right to use all incorporated
 assets, the licenses for all third-party assets are
 tracked in the repository, and you have satisfied
 all license requirements.
 
-- The repository is properly configured, including an appropriate `.gitignore`,
-no unnecessary files tracked, a single mainline branch called `master` or
-`main`, and in the course organization.
+- **Version control**: The repository is properly configured, including an
+appropriate `.gitignore`, no unnecessary files tracked, a single mainline branch
+called `master` or `main`, and in the course organization. Commits follow Beams'
+rules.
 
-- You have made a release on GitHub and tagged it using semantic versioning.
+- **Release Management**: You have made a release on GitHub and tagged it using semantic versioning.
 
-- Report?
+- **Report**: The report is complete as described in the first week's exercise.
 
 ### Auxiliary goals
 
