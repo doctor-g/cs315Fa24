@@ -105,9 +105,11 @@ _Incomplete_ means that there is not an indication of clear progress
 toward the goals. 
 
 If you have incomplete submissions or new attempts required, you can resubmit
-the corresponding exercise for a new evaluation. You may do this at most
-once per week, reckoning from the first class meeting day of that week
-(usually 2PM on Tuesdays).
+the corresponding exercise for a new evaluation. 
+You may resubmit at most one item per week,
+reckoning from the first class meeting day of that week
+(usually 2PM on Tuesdays). The start of final exams marks the end of resubmission
+opportunities.
 
 (This policy is inspired by [Joshua Bowman's work at Pepperdine University,
 a case study at _Grading for Growth_](https://gradingforgrowth.com/p/case-study-how-joshua-bowman-uses).)
