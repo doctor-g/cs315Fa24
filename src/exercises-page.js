@@ -35,21 +35,21 @@ class ExercisesPage extends SitePage {
 <p>Set up a git repository for your project. For example, you can use the command line to navigate to your project folder and then issue the command <code>git init</code>.</p>
 <p>Godot Engine will create appropriate <code>.gitignore</code> and <code>.gitattributes</code> files for you by default. These tell git what files to ignore and how to deal with different kinds of files, respectively. Take a look at the <code>.gitignore</code> file, then look at your filesystem. You should see that <code>.gitignore</code> is ignoring a folder called <code>.godot</code>, and that this folder contains all manner of gobbledygook. Godot Engine uses that folder to hold its generated content—the files it needs to edit and build your project. Since it is generated content, it should not be tracked in version control. Three cheers for Godot Engine's helpful default git configuration files!</p>
 <p>If you are using Mac OS, you need to add an extra entry to <code>.gitignore</code> so that it ignores the <code>.DS_Store</code> files created by your operating system. This means that, once you are done, your <code>.gitignore</code> will look something like the following.</p>
-<pre><code># Godot 4+ specific ignores
+<pre># Godot 4+ specific ignores
 .godot/
 
 # Mac OS ignores
-.DS_Store</code></pre>
+.DS_Store</pre>
 <p>Use <code>git status</code> at any time to see what is currently being tracked by git.</p>
 <p>From the project directory, you can add all the non-ignored files with the following command. That is, this tells git to stage these files for commit.</p>
-<pre><code>git add -A</code></pre>
+<pre>git add -A</pre>
 <p>This would be a good time to do <code>git status</code> and compare the previous results to these.</p>
 <p>With your files staged for commit, you can commit using the <code>git commit</code> command. I think the easiest way to do this is to tell git to commit all the staged files (specified with the <code>-a</code> flag) and also to give the commit message on the command line (specified with the <code>-m</code> flag, which is combined with the previous into one string, <code>-am</code>).</p>
-<pre><code>git commit -am &quot;Complete the tutorial&quot;</code></pre>
+<pre>git commit -am &quot;Complete the tutorial&quot;</pre>
 <p>Once again, <code>git status</code> can be instructive here. It never hurts to run that command to make sure that your mental model matches git's state. This is also a good time to try <code>git log</code>.</p>
 <p>With your local repository ready, it's tile to make a remote repository to which you can push your changes. Create a repository in our course organization on GitHub, naming it <code>E0-xyz</code>, where <em>xyz</em> is your BSU username or your surname. This identifies the repository as being yours and corresponding to Exercise 0. You need to ensure that, before the deadline, this repository contains your final submission. Notice that, after you create the repository on GitHub, it will show you the command-line instructions on how to set your remote origin and push your changes. Follow those instructions to push your changes to GitHub. Renaming the default branch is optional.</p>
 <p>Confirm that you have handled these steps properly by cloning your remote repository to a new location on your workstation. On GitHub, click the &ldquo;Code&rdquo; button to get the HTTPS URL to your repository. It should look something like <code>https://github.com/bsu-cs315/E0-myname</code>. From your terminal, go to any convenient location in your filesystem and clone the repository using the <code>git clone</code> command, like this:</p>
-<pre><code>git clone https://github.com/bsu-cs315/E0-myname</code></pre>
+<pre>git clone https://github.com/bsu-cs315/E0-myname</pre>
 <p>This will get you an exact copy of what is on GitHub. You can open it up and confirm that everything is working as intended.</p>
 <h3 id="your-readme-file-and-report">4. Your README file and report</h3>
 <p>It is common practice for a software project to have a top-level &ldquo;README&rdquo; file that explains it, and we will follow that practice for our work. Create a <code>README.md</code> file at the root of your project. This Markdown file must contain your name, the name of the project, acknowledgement of those besides the professor who assisted you, and the licenses under which third-party assets are used. It is also where you will place your activity report, the requirements for which are explained below.</p>
