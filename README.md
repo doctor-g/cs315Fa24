@@ -1,20 +1,16 @@
-# CS 315 Game Programming, Fall 2024
+# Course plan for CS315 Fall 2024
 
-This repository contains a course plan for my section of CS315 Game Programming
-at Ball State University for Fall 2024. 
-Additional content will be added to the repository as the course progresses.
+## Development
 
-## Contents
+There's a nice plug-in for VSCode called Live Server
+that makes it easy to spin up a web server and test that
+the pages are working right.
 
-- The [Course Overview](overview.md) contains a summary of the course and its policies
+## Build and deploy
 
-- Weekly exercises
+There is no build step. Run `make deploy` after mounting csweb
+to copy the `src` directory to the right location.
 
-## Legal and Licensing
+## Third-Party Assets
 
-CS315 Game Programming © 2024 Paul Gestwicki
-
-The content of this repository is made available under the
-[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
-![License Image](https://i.creativecommons.org/l/by/4.0/88x31.png)
+- Link icon is from [octicons](https://github.com/primer/octicons) and licensed under MIT.
