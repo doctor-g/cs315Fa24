@@ -146,6 +146,8 @@ class OverviewPage extends SitePage {
 <li>What philosophies espouse mandated statements of aspiration?</li>
 </ul>
       `)}
+
+      ${this.renderFooter()}
     `;
   }
 }

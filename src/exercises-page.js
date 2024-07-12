@@ -179,7 +179,7 @@ class ExercisesPage extends SitePage {
 </ul>
 
         `)}
-
+      ${this.renderFooter()}
     `;
   }
 }

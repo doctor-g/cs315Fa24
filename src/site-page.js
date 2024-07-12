@@ -5,7 +5,7 @@ export class SitePage extends LitElement {
 
   static styles = [
     css`
-      header, section {
+      header, section, footer {
         max-width: 600px;
         margin: auto;
       }
@@ -81,4 +81,16 @@ export class SitePage extends LitElement {
       </section>
   `};
 
+  renderFooter() {
+    return html`
+      <footer>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+          ><img
+            alt="Creative Commons License"
+            style="border-width:0"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+        /></a>
+      </footer>
+    `
+  }
 }
